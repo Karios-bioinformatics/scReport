@@ -247,7 +247,7 @@ scReportCNV 是 scReport 软件生态中面向拷贝数变异分析（copy numbe
 
 **Zenodo**：计划中
 
-x
+
 #### 简介
 scReportClonotype 是 scReport 软件生态中面向克隆型分析（clonotype analysis）结果的交互式 HTML 报告生成 R 包。
 
