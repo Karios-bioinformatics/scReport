@@ -16,7 +16,9 @@ If you want to read Chinese version, please check [here](https://github.com/Kari
 ---
 
 **Version:** 0.4.0
+
 **GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportLite)
+
 **Zenodo:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20828069.svg)](https://doi.org/10.5281/zenodo.20828069)
 
 ---
@@ -36,7 +38,9 @@ For more details, please refer to the [scReportLite README](https://github.com/K
 ---
 
 **Version:** Planned
+
 **GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportComposition)
+
 **Zenodo:** Planned
 
 ---
@@ -54,7 +58,9 @@ It focuses on changes in cell-type proportions across different samples, experim
 ---
 
 **Version:** Planned
+
 **GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportDE)
+
 **Zenodo:** Planned
 
 ---
@@ -72,7 +78,9 @@ It focuses on gene expression differences across cell types, clusters, sample gr
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -90,7 +98,9 @@ It focuses on enrichment results from GO, KEGG, Reactome, Hallmark gene sets, an
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -108,7 +118,9 @@ It focuses on secondary clustering within specific cell populations or clusters,
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -126,7 +138,9 @@ It focuses on cell-state transitions, developmental trajectories, differentiatio
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -144,7 +158,9 @@ It focuses on cell-state transition directions, velocity vectors, latent time, d
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -162,7 +178,9 @@ It focuses on ligand-receptor interactions, communication strength, signaling pa
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -180,7 +198,9 @@ It focuses on transcription factor activity, target genes, regulons, motif enric
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -198,7 +218,9 @@ It focuses on gene regulatory networks, transcription factor–target relationsh
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -216,7 +238,9 @@ It focuses on pathway scores, signature scores, metabolic scores, immune scores,
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -234,7 +258,9 @@ It focuses on activity scores of user-defined functional gene modules, cell-stat
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -252,7 +278,9 @@ It focuses on G1, S, and G2/M phase distributions, cell cycle scores, and the im
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -270,7 +298,9 @@ It focuses on single-cell chromosomal copy number alterations, tumor-normal cell
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -288,7 +318,9 @@ It focuses on TCR/BCR clonotypes, clonal expansion, clonal sharing, clonal diver
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -306,7 +338,9 @@ It focuses on integrating scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomi
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -324,7 +358,9 @@ It focuses on spatial distributions of cell types, tissue region annotations, sp
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
@@ -342,7 +378,9 @@ It focuses on aggregated expression matrices generated from single-cell data and
 ---
 
 **Version:** Planned
+
 **GitHub:** Planned
+
 **Zenodo:** Planned
 
 ---
