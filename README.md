@@ -11,382 +11,383 @@ The project originated from the practical challenge of managing a large number o
 For the Chinese version, please see [README-zh.md](https://github.com/Karios-bioinformatics/scReport/blob/main/README-zh.md).
 ## Ecosystem
 
-### scReportLite
-
-
-
-**Version:** 0.4.0
-
-**GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportLite)
-
-**Zenodo:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20828069.svg)](https://doi.org/10.5281/zenodo.20828069)
-
-
-
-#### Overview
-
-scReportLite is an R package for generating interactive HTML reports from the fundamental results of single-cell RNA sequencing (scRNA-seq) analysis.
-
-Rather than replacing existing single-cell analysis frameworks such as Seurat, or re-running the complete analysis workflow, scReportLite focuses on organizing analysis outputs—including result tables, dimensional reduction coordinates, QC metrics, marker gene results, and cell annotations—into interactive, traceable, and shareable reports.
-
-For more details, please refer to the [scReportLite README](https://github.com/Karios-bioinformatics/scReportLite/blob/main/README.md).
-
-
----
-### scReportComposition
-
-
-
-**Version:** Planned
-
-**GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportComposition)
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportComposition is an interactive HTML reporting package within the scReport ecosystem dedicated to cell-type composition analysis.
-
-It focuses on changes in cell-type proportions across different samples, experimental groups, conditions, or treatments, and organizes composition differences, cluster/cell-type proportions, and group-wise comparisons into interactive reports for exploration and discussion.
-
----
-
-### scReportDE
-
-
-
-**Version:** Planned
-
-**GitHub:** [Project Repository](https://github.com/Karios-bioinformatics/scReportDE)
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportDE is an interactive HTML reporting package within the scReport ecosystem dedicated to differential expression analysis.
-
-It focuses on gene expression differences across cell types, clusters, sample groups, or experimental conditions, and organizes DEG tables, volcano plots, expression distributions, top marker genes, and top DEGs into interactive, traceable, and shareable reports.
-
-
----
-### scReportEnrichment
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportEnrichment is an interactive HTML reporting package within the scReport ecosystem dedicated to functional enrichment analysis.
-
-It focuses on enrichment results from GO, KEGG, Reactome, Hallmark gene sets, and related resources, organizing enriched terms, gene sets, statistical significance, enrichment direction, and associated gene lists into interactive and interpretable reports.
-
----
-
-### scReportSubcluster
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportSubcluster is an interactive HTML reporting package within the scReport ecosystem dedicated to subcluster analysis.
-
-It focuses on secondary clustering within specific cell populations or clusters, including subcluster identification, subcluster marker genes, proportion changes, and functional differences between subclusters.
-
----
-
-### scReportTrajectory
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportTrajectory is an interactive HTML reporting package within the scReport ecosystem dedicated to trajectory and pseudotime analysis.
-
-It focuses on cell-state transitions, developmental trajectories, differentiation paths, pseudotime ordering, branching structures, and gene expression dynamics along trajectories.
-
----
-
-### scReportVelocity
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportVelocity is an interactive HTML reporting package within the scReport ecosystem dedicated to RNA velocity analysis.
-
-It focuses on cell-state transition directions, velocity vectors, latent time, dynamic genes, and cell fate trends.
-
----
-
-### scReportCommunication
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportCommunication is an interactive HTML reporting package within the scReport ecosystem dedicated to cell-cell communication analysis.
-
-It focuses on ligand-receptor interactions, communication strength, signaling pathways, sender and receiver cell relationships, and communication pattern changes across different conditions.
-
----
-
-### scReportTF
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportTF is an interactive HTML reporting package within the scReport ecosystem dedicated to transcription factor analysis.
-
-It focuses on transcription factor activity, target genes, regulons, motif enrichment, and cell-type-specific transcriptional regulation.
-
----
-
-### scReportRegulatoryNetwork
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportRegulatoryNetwork is an interactive HTML reporting package within the scReport ecosystem dedicated to regulatory network analysis.
-
-It focuses on gene regulatory networks, transcription factor–target relationships, regulatory modules, network topology, weighted edges, and cell-type-specific regulatory architectures.
-
----
-
-### scReportGeneSetScore
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportGeneSetScore is an interactive HTML reporting package within the scReport ecosystem dedicated to gene set scoring analysis.
-
-It focuses on pathway scores, signature scores, metabolic scores, immune scores, and other gene-set activity measurements across cells, clusters, cell types, and sample groups.
-
----
-
-### scReportModuleScore
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportModuleScore is an interactive HTML reporting package within the scReport ecosystem dedicated to module score analysis.
-
-It focuses on activity scores of user-defined functional gene modules, cell-state modules, and disease-related modules across different cell populations.
-
----
-
-### scReportCellCycle
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportCellCycle is an interactive HTML reporting package within the scReport ecosystem dedicated to cell cycle analysis.
-
-It focuses on G1, S, and G2/M phase distributions, cell cycle scores, and the impact of cell cycle effects on PCA, clustering, UMAP, and marker analyses.
-
----
-
-### scReportCNV
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportCNV is an interactive HTML reporting package within the scReport ecosystem dedicated to copy number variation (CNV) analysis.
-
-It focuses on single-cell chromosomal copy number alterations, tumor-normal cell discrimination, CNV heatmaps, CNV scores, subclonal architectures, and CNV differences across samples.
-
----
-
-### scReportClonotype
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportClonotype is an interactive HTML reporting package within the scReport ecosystem dedicated to clonotype analysis.
-
-It focuses on TCR/BCR clonotypes, clonal expansion, clonal sharing, clonal diversity, and the relationship between clonotypes and cellular states.
-
----
-
-### scReportMultiomics
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportMultiomics is an interactive HTML reporting package within the scReport ecosystem dedicated to multi-omics integration analysis.
-
-It focuses on integrating scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, methylomics, proteomics, and other omics modalities into unified interactive reports.
-
----
-
-### scReportSpatial
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportSpatial is an interactive HTML reporting package within the scReport ecosystem dedicated to spatial mapping and spatial transcriptomics analysis.
-
-It focuses on spatial distributions of cell types, tissue region annotations, spatial neighborhood relationships, spatial markers, spatial co-localization, and single-cell to spatial mapping.
-
----
-
-### scReportPseudobulk
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportPseudobulk is an interactive HTML reporting package within the scReport ecosystem dedicated to pseudobulk analysis.
-
-It focuses on aggregated expression matrices generated from single-cell data and the resulting sample-level differential expression, visualization, and statistical analyses.
-
----
-
-### scReportCoexpression
-
-
-
-**Version:** Planned
-
-**GitHub:** Planned
-
-**Zenodo:** Planned
-
-
-
-#### Overview
-
-scReportCoexpression is an interactive HTML reporting package within the scReport ecosystem dedicated to co-expression network analysis.
-
-It focuses on gene co-expression relationships, co-expression modules, hub genes, and associations between gene modules and cell types, phenotypes, or experimental groups.
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportLite</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-0.4.0-blue" alt="Version: 0.4.0"></p>
+      <p><a href="https://github.com/Karios-bioinformatics/scReportLite"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
+      <p><a href="https://doi.org/10.5281/zenodo.20828069"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20828069.svg" alt="DOI"></a></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportLite is an R package for generating interactive HTML reports from the fundamental results of single-cell RNA sequencing (scRNA-seq) analysis.</p>
+      <p>Rather than replacing existing single-cell analysis frameworks such as Seurat, or re-running the complete analysis workflow, scReportLite focuses on organizing analysis outputs—including result tables, dimensional reduction coordinates, QC metrics, marker gene results, and cell annotations—into interactive, traceable, and shareable reports.</p>
+      <p>For more details, please refer to the <a href="https://github.com/Karios-bioinformatics/scReportLite/blob/main/README.md">scReportLite README</a>.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportComposition</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><a href="https://github.com/Karios-bioinformatics/scReportComposition"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportComposition is an interactive HTML reporting package within the scReport ecosystem dedicated to cell-type composition analysis.</p>
+      <p>It focuses on changes in cell-type proportions across different samples, experimental groups, conditions, or treatments, and organizes composition differences, cluster/cell-type proportions, and group-wise comparisons into interactive reports for exploration and discussion.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportDE</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><a href="https://github.com/Karios-bioinformatics/scReportDE"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportDE is an interactive HTML reporting package within the scReport ecosystem dedicated to differential expression analysis.</p>
+      <p>It focuses on gene expression differences across cell types, clusters, sample groups, or experimental conditions, and organizes DEG tables, volcano plots, expression distributions, top marker genes, and top DEGs into interactive, traceable, and shareable reports.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportEnrichment</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportEnrichment is an interactive HTML reporting package within the scReport ecosystem dedicated to functional enrichment analysis.</p>
+      <p>It focuses on enrichment results from GO, KEGG, Reactome, Hallmark gene sets, and related resources, organizing enriched terms, gene sets, statistical significance, enrichment direction, and associated gene lists into interactive and interpretable reports.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportSubcluster</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportSubcluster is an interactive HTML reporting package within the scReport ecosystem dedicated to subcluster analysis.</p>
+      <p>It focuses on secondary clustering within specific cell populations or clusters, including subcluster identification, subcluster marker genes, proportion changes, and functional differences between subclusters.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportTrajectory</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportTrajectory is an interactive HTML reporting package within the scReport ecosystem dedicated to trajectory and pseudotime analysis.</p>
+      <p>It focuses on cell-state transitions, developmental trajectories, differentiation paths, pseudotime ordering, branching structures, and gene expression dynamics along trajectories.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportVelocity</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportVelocity is an interactive HTML reporting package within the scReport ecosystem dedicated to RNA velocity analysis.</p>
+      <p>It focuses on cell-state transition directions, velocity vectors, latent time, dynamic genes, and cell fate trends.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportCommunication</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportCommunication is an interactive HTML reporting package within the scReport ecosystem dedicated to cell-cell communication analysis.</p>
+      <p>It focuses on ligand-receptor interactions, communication strength, signaling pathways, sender and receiver cell relationships, and communication pattern changes across different conditions.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportTF</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportTF is an interactive HTML reporting package within the scReport ecosystem dedicated to transcription factor analysis.</p>
+      <p>It focuses on transcription factor activity, target genes, regulons, motif enrichment, and cell-type-specific transcriptional regulation.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportRegulatoryNetwork</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportRegulatoryNetwork is an interactive HTML reporting package within the scReport ecosystem dedicated to regulatory network analysis.</p>
+      <p>It focuses on gene regulatory networks, transcription factor–target relationships, regulatory modules, network topology, weighted edges, and cell-type-specific regulatory architectures.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportGeneSetScore</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportGeneSetScore is an interactive HTML reporting package within the scReport ecosystem dedicated to gene set scoring analysis.</p>
+      <p>It focuses on pathway scores, signature scores, metabolic scores, immune scores, and other gene-set activity measurements across cells, clusters, cell types, and sample groups.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportModuleScore</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportModuleScore is an interactive HTML reporting package within the scReport ecosystem dedicated to module score analysis.</p>
+      <p>It focuses on activity scores of user-defined functional gene modules, cell-state modules, and disease-related modules across different cell populations.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportCellCycle</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportCellCycle is an interactive HTML reporting package within the scReport ecosystem dedicated to cell cycle analysis.</p>
+      <p>It focuses on G1, S, and G2/M phase distributions, cell cycle scores, and the impact of cell cycle effects on PCA, clustering, UMAP, and marker analyses.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportCNV</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportCNV is an interactive HTML reporting package within the scReport ecosystem dedicated to copy number variation (CNV) analysis.</p>
+      <p>It focuses on single-cell chromosomal copy number alterations, tumor-normal cell discrimination, CNV heatmaps, CNV scores, subclonal architectures, and CNV differences across samples.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportClonotype</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportClonotype is an interactive HTML reporting package within the scReport ecosystem dedicated to clonotype analysis.</p>
+      <p>It focuses on TCR/BCR clonotypes, clonal expansion, clonal sharing, clonal diversity, and the relationship between clonotypes and cellular states.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportMultiomics</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportMultiomics is an interactive HTML reporting package within the scReport ecosystem dedicated to multi-omics integration analysis.</p>
+      <p>It focuses on integrating scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, methylomics, proteomics, and other omics modalities into unified interactive reports.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportSpatial</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportSpatial is an interactive HTML reporting package within the scReport ecosystem dedicated to spatial mapping and spatial transcriptomics analysis.</p>
+      <p>It focuses on spatial distributions of cell types, tissue region annotations, spatial neighborhood relationships, spatial markers, spatial co-localization, and single-cell to spatial mapping.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportPseudobulk</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportPseudobulk is an interactive HTML reporting package within the scReport ecosystem dedicated to pseudobulk analysis.</p>
+      <p>It focuses on aggregated expression matrices generated from single-cell data and the resulting sample-level differential expression, visualization, and statistical analyses.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h3>scReportCoexpression</h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="260" valign="top">
+      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
+      <p><img src="https://img.shields.io/badge/GitHub-Planned-lightgrey" alt="GitHub: Planned"></p>
+      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+    </td>
+    <td valign="top">
+      <h4>Overview</h4>
+      <p>scReportCoexpression is an interactive HTML reporting package within the scReport ecosystem dedicated to co-expression network analysis.</p>
+      <p>It focuses on gene co-expression relationships, co-expression modules, hub genes, and associations between gene modules and cell types, phenotypes, or experimental groups.</p>
+    </td>
+  </tr>
+</table>
