@@ -1,6 +1,20 @@
 # scReport
 
-<p align="center"> <strong>Making bioinformatics results interactive.</strong> </p>
+
+<p align="center">
+  <strong>Making bioinformatics results interactive.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-blue" alt="Status">
+  <img src="https://img.shields.io/badge/Focus-Single--cell%20Bioinformatics-blue" alt="Focus">
+  <img src="https://img.shields.io/badge/Type-Interactive%20Reporting-blue" alt="Type">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</p>
+
+
+
+**scReport turns single-cell analysis outputs into structured, interactive, and shareable HTML reports.**
 
 scReport is an interactive reporting ecosystem primarily designed for single-cell bioinformatics. It aims to transform scattered analysis outputs—including static figures, tables, and scripts—into unified, interactive, shareable, and reproducible scientific reports.
 
