@@ -56,12 +56,13 @@ For the Chinese version, please see [README-zh.md](https://github.com/Karios-bio
     <td width="260" valign="top">
       <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: Planned"></p>
       <p><a href="https://github.com/Karios-bioinformatics/scReportComposition"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
-      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+      <p><a href="https://doi.org/10.5281/zenodo.20955461"><img src="https://zenodo.org/badge/1280164558.svg" alt="DOI"></a></p>
     </td>
     <td valign="top">
       <h4>Overview</h4>
       <p>scReportComposition is an interactive HTML reporting package within the scReport ecosystem dedicated to cell-type composition analysis.</p>
       <p>It focuses on changes in cell-type proportions across different samples, experimental groups, conditions, or treatments, and organizes composition differences, cluster/cell-type proportions, and group-wise comparisons into interactive reports for exploration and discussion.</p>
+      <p>For more details, please refer to the <a href="https://github.com/Karios-bioinformatics/scReportComposition/blob/main/README.md">scReportComposition README</a>.
     </td>
   </tr>
 </table>
