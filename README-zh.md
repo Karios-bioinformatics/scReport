@@ -18,9 +18,9 @@ English version: [README.md](https://github.com/Karios-bioinformatics/scReport/b
   <tr><td colspan="2"><h3>scReportLite</h3></td></tr>
   <tr>
     <td width="260" valign="top">
-      <p><img src="https://img.shields.io/badge/Version-0.4.0-blue" alt="Version: 0.4.0"></p>
+      <p><img src="https://img.shields.io/badge/Version-0.5.0-blue" alt="Version: 0.5.0"></p>
       <p><a href="https://github.com/Karios-bioinformatics/scReportLite"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
-      <p><a href="https://doi.org/10.5281/zenodo.20828069"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20828069.svg" alt="DOI: 10.5281/zenodo.20828069"></a></p>
+      <p><a href="https://doi.org/10.5281/zenodo.21245542"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21245542.svg" alt="DOI: 10.5281/zenodo.21245542"></a></p>
     </td>
     <td valign="top">
       <h4>简介</h4>
@@ -35,9 +35,9 @@ English version: [README.md](https://github.com/Karios-bioinformatics/scReport/b
   <tr><td colspan="2"><h3>scReportComposition</h3></td></tr>
   <tr>
     <td width="260" valign="top">
-      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: 计划中"></p>
+      <p><img src="https://img.shields.io/badge/Version-0.2.0-blue" alt="Version: 0.2.0"></p>
       <p><a href="https://github.com/Karios-bioinformatics/scReportComposition"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
-      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+      <p><a href="https://doi.org/10.5281/zenodo.21278329"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21278329.svg" alt="DOI: 10.5281/zenodo.21278329"></a></p>
     </td>
     <td valign="top">
       <h4>简介</h4>
@@ -51,9 +51,10 @@ English version: [README.md](https://github.com/Karios-bioinformatics/scReport/b
   <tr><td colspan="2"><h3>scReportDE</h3></td></tr>
   <tr>
     <td width="260" valign="top">
-      <p><img src="https://img.shields.io/badge/Version-Planned-lightgrey" alt="Version: 计划中"></p>
+      <p><img src="https://img.shields.io/badge/Version-0.1.0-blue" alt="Version: 0.1.0"></p>
+      <p><img src="https://img.shields.io/badge/Status-Pre--release-yellow" alt="Status: Pre-release"></p>
       <p><a href="https://github.com/Karios-bioinformatics/scReportDE"><img src="https://img.shields.io/badge/GitHub-Repository-blue" alt="GitHub Repository"></a></p>
-      <p><img src="https://img.shields.io/badge/Zenodo-Planned-lightgrey" alt="Zenodo: Planned"></p>
+      <p><a href="https://doi.org/10.5281/zenodo.21278267"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21278267.svg" alt="DOI: 10.5281/zenodo.21278267"></a></p>
     </td>
     <td valign="top">
       <h4>简介</h4>
